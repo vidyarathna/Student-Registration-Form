@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="title1">
+        <h1> Student Registration Form</h1>
+    </div>
+    <div class="main">
+
+        <div class="container1">
+            <h2>
+                Registration Form
+            </h2>
+            <form class="form">
+                <label for="first_name">First Name*</label>
+                <input type="text" name="first_name" class="a1" id="fname" maxlength="20" placeholder="First Name"
+                    required="*"><br><br>
+
+                <label for="last_name">Last Name*</label>
+                <input type="text" name="last_name" class="a1" id="lname" maxlength="20" placeholder="Last Name"
+                    required="*"><br><br>
+
+                <label for="email">Email*</label>
+                <input type="email" name="email" class="a1" maxlength="100" id="email" placeholder="abc@gamil.com"
+                    required="*"><br><br>
+
+                <label for="phone">Phone No.*</label>
+                <input type="tel" name="phone" class="a1" maxlength="10" id="phone" placeholder="75XXXXXXXX"
+                    required="*"><br><br>
+
+                <label for="website">Website</label>
+                <input type="text" name="website" id="website" class="a1" placeholder="Website"><br><br>
+
+                <label for="gender">Gender</label>
+
+                <input type="radio" name="gender" id="male" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="Female">
+                <label for="Female">Female</label>
+                <br><br>
+
+                <label for="skill">Skill</label>
+
+                <input type="checkbox" name="skill" id="java" value="Java">
+                <label for="java">Java</label>
+
+                <input type="checkbox" name="skill" id="c++" value="C++">
+                <label for="c++">C++</label>
+
+                <input type="checkbox" name="skill" id="python" value="Python">
+                <label for="python">Python</label>
+
+                <input type="checkbox" name="skill" id="other" value="C#">
+                <label for="other">C#</label><br><br>
+                <button type="submit" id="btn">Enroll Student</button>
+                <button type="reset"id="clear">Clear All</button>
+            </form>
+        </div>
+        <div class="container2 ">
+        </div>
+        <div class="container3">
+            <h2 class="enrolled">Enrolled Student</h2>
+            <div class="cards"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  
+  
+</body>
+
+</html>
