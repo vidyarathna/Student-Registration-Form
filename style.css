@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.title1 {
+    background: rgb(249, 247, 247);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+
+.title1 h1 {
+    text-align: center;
+    color: rgb(19, 7, 255);
+
+
+}
+
+.container1 {
+    border: 2px solid blueviolet;
+    width: 100%;
+    max-width: 700px;
+    height: 620px;
+}
+
+.container1 h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form {
+    width: auto;
+    height: auto;
+    border: 2px solid blueviolet;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    /* background: rgb(0, 0, 0); */
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+
+label {
+    color: rgb(255, 255, 255)
+}
+
+.a1 {
+    width: 200px;
+}
+
+#fname {
+    margin-left: 150px;
+
+}
+
+#lname {
+    margin-left: 152px;
+}
+
+#email {
+    margin-left: 183px;
+}
+
+#phone {
+    margin-left: 154px;
+}
+
+#website {
+    margin-left: 233px;
+}
+
+#male {
+    margin-left: 174px;
+}
+
+#java {
+    margin-left: 190px;
+}
+
+input {
+    color: rgb(19, 7, 7);
+    font-weight: 1000;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: blueviolet;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 50px;
+
+}
+
+#btn {
+    background: rgb(70, 247, 0);
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+#btn:hover {
+    box-shadow: rgba(40, 45, 42, 0.35) 0 -25px 18px -14px inset, rgba(40, 45, 42, .25) 0 1px 2px, rgba(40, 45, 42, .25) 0 2px 4px, rgba(40, 45, 42, .25) 0 4px 8px, rgba(40, 45, 42, .25) 0 8px 16px, rgba(40, 45, 42, .25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+#clear {
+    background: rgb(247, 0, 0);
+    border-radius: 100px;
+    box-shadow: rgba(238, 11, 11, 0.269) 0 -25px 18px -14px inset, rgba(238, 11, 11, .15) 0 1px 2px, rgba(238, 11, 11, .15) 0 2px 4px, rgba(238, 11, 11, .15) 0 4px 8px, rgba(238, 11, 11, .15) 0 8px 16px, rgba(238, 11, 11, .15) 0 16px 32px;
+    color: rgb(6, 6, 6);
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#clear:hover {
+    box-shadow: rgba(40, 45, 42, .35) 0 -25px 18px -14px inset, rgba(40, 45, 42, .25) 0 1px 2px, rgba(40, 45, 42, .25) 0 2px 4px, rgba(40, 45, 42, .25) 0 4px 8px, rgba(40, 45, 42, .25) 0 8px 16px, rgba(40, 45, 42, .25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    border: 5px solid rgb(4, 4, 4);
+    width: 5px;
+    height: 620px;
+}
+
+.container3 {
+    border: 2px solid orangered;
+    width: 700px;
+    height: 620px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+span {
+    color: rgb(13, 13, 12);
+    font-size: medium;
+    text-align: center;
+}
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    background-image: linear-gradient(to top, #0ffb4c, #14f540, #18ef33, #1be923, #1ee30b);
+    border: 2px solid rgb(205, 6, 240);
+    border-radius: 10px;
+    padding: 20px 30px;
+    text-align: center;
+   
+    
+  }
+  
+  .title {
+    font-size: 22px;
+    color:rgb(0, 0, 0);
+    margin: 7px;
+    padding:5px;
+    
+  }
+  
+  .text {
+    color:rgb(0, 0, 0);
+    margin: 10px;
+    font-size: 18px;
+  }
+  .enrolled {
+    margin-top: 2rem;
+    text-align: center;
+  }
